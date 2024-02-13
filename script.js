@@ -10,6 +10,7 @@ while (playAgain === false) {
     score++;
   } else {
     alert(`Sorry, the correct number was ${randomnumber}. You lose.`);
+    score++;
   }
 
   playAgain = confirm("Do you want to play again?");
