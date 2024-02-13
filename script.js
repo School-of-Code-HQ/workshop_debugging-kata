@@ -1,4 +1,4 @@
-let score = 0;
+let score;
 let playAgain = true;
 
 while (playAgain === false) 
