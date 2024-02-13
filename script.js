@@ -5,11 +5,11 @@ while (playAgain) {
   const randomNumber = Math.floor(Math.random() * 10) + 1;
   const userGuess = parseInt(prompt("Guess a number between 1 and 10:"));
 
-  if (userGuess === randomNumber) {
+  if (userGuess === randomnumber) {
     alert("Congratulations! You guessed the correct number.");
     score++;
   } else {
-    alert(`Sorry, the correct number was ${randomNumber}. You lose.`);
+    alert(`Sorry, the correct number was ${randomnumber}. You lose.`);
   }
 
   playAgain = confirm("Do you want to play again?");
